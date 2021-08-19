@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1629060383 source:c:\users\aze\desktop\cpp\first_line\main.cpp
+	<iostream>
+
+1629060433 source:c:\users\aze\desktop\cpp\first_line\arr.cpp
+	<iostream>
+	<cmath>
+	<array>
+

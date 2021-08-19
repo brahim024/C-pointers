@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int testin(){
+    int arr[9]={1,2,3,4,55,4,21,4,5};
+    int target=21;
+    // test without function
+    int left=0;
+    int right=(sizeof(arr) /sizeof(int))-1;
+    int mid_index=(right+left)/2;
+    while (left<=right){
+        int mid_number=arr[mid_index];
+        if (mid_number == target){
+            cout << mid_number;
+        }else if(mid_number<target){
+            left=mid_index+1;
+        }else{
+            right=mid_index-1;
+        }
+    }
+    return 0;
+
+}
